@@ -37,6 +37,7 @@ app.post("/api/favourites", async (req, res) => {
       .returning();
 
     res.status(201).json(newFavourite[0]);
+    console.log("something")
   } catch (error) {
     console.log("Error adding favourite", error);
     res.status(500).json({ error: "Something went wrong" });

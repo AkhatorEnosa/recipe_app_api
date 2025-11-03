@@ -1,4 +1,4 @@
-CREATE TABLE "favorites" (
+CREATE TABLE "favourites" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"user_id" text NOT NULL,
 	"recipe_id" integer NOT NULL,

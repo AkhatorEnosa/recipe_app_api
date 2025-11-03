@@ -1,11 +1,11 @@
 {
-  "id": "42993c9b-893d-4b5b-89ca-7ac9b1e0326a",
+  "id": "4787588c-1415-4c06-a97a-3d8b7bf6bf6f",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
-    "public.favorites": {
-      "name": "favorites",
+    "public.favourites": {
+      "name": "favourites",
       "schema": "",
       "columns": {
         "id": {
